@@ -2,7 +2,8 @@ import React from "react";
 import CustomNav from "../Components/NavBar";
 import { Container, Button, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faPhone, faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import useWindowDimensions from "../utils/dimensionHelper";
 
@@ -41,7 +42,12 @@ const Home = ({ history }) => {
                     I'm a <span className="font-weight-bold">full stack</span>{" "}
                     developer
                   </span>
+                  <br/>
+                  <span className="color-customBlue h5 font-weight-bold">
+                   I'm from hyderabad
+                  </span>
                   <br />
+                  
                   <br />
                   <span className="color-customBlueLight h5">
                   A passionate and enthusiastic web developer who loves coding and always ready to learn something new.
@@ -50,22 +56,40 @@ const Home = ({ history }) => {
                 </div>
                 <div>
                   <div className="d-flex mt-4">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/Rakesh-pilly"
-                      className="color-customBlue p-0 mr-3"
-                    >
-                      <FontAwesomeIcon size="2x" icon={faGithubSquare} />
-                    </a>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.linkedin.com/in/rakesh-pilly/"
-                      className="color-customBlue p-0 mr-3"
-                    >
-                      <FontAwesomeIcon size="2x" icon={faLinkedin} />
-                    </a>
+                  <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1">
+            <FontAwesomeIcon size="1x" icon={faPhone} />
+            <span>9550836882</span>
+          </Button>
+          <Button
+            className="contact-btns bg-customBlue mr-2 shadow border-0 py-1"
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/rakesh-pilly/", "_blank")
+            }
+          >
+            <FontAwesomeIcon size="1x" icon={faLinkedinIn} />
+            <span>Linkedin</span>
+          </Button>
+          <Button
+            className="contact-btns bg-customBlue mr-2 shadow border-0 py-1"
+            onClick={() =>
+              window.open("https://github.com/Rakesh-pilly", "_blank")
+            }
+          >
+            <FontAwesomeIcon size="1x" icon={faGithub} />
+            <span>Github</span>
+          </Button>
+                    <Button
+            className="contact-btns bg-customBlue shadow border-0 py-1 px-2"
+            onClick={() =>
+              window.open(
+                'mailto:pillyrakesh@gmail.com?subject="Hello !"',
+                "_blank"
+              )
+            }
+          >
+            <FontAwesomeIcon size="1x" icon={faEnvelope} />
+            <span>Mail</span>
+          </Button>
                   </div>
                   <br />
                   <Button

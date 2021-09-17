@@ -68,7 +68,7 @@ code {
 
 .bg-progress-progCustomBlue {
   background-color: #161b7f !important;
-  /* color: white; */
+  
 }
 
 .neomorphIconCard {
@@ -89,8 +89,7 @@ code {
   width: 150px;
   transition: width 0.15s;
   transition-timing-function: ease-in-out;
-  /* -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); */
+ 
   cursor: pointer;
   opacity: 1;
   display: block;
@@ -99,12 +98,13 @@ code {
 
 .skillName {
   position: absolute;
-  top: 100%;
-  background-color: rgba(135, 175, 255, 0.85);
+  top: 90%;
+  
   padding: 5px;
   color: #161b7f;
   font-weight: 600;
-  visibility: hidden;
+  font-size: 1.2rem;
+
 }
 
 .skillWraper:hover .skillsImg {
