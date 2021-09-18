@@ -86,7 +86,7 @@ export const projectsList = [
     imgSrc: "images/booking.png",
     src: "https://booking-com.netlify.app/",
     githubSrc: "https://github.com/Ramlala-Yadav-Git/Booking.com-clone",
-    description: "To clone Booking.com \n Features implemented in the website: login-in-signup use google api,landing page,Search-filter functionality,can book a hotel.",
+    description: "The website is a clone of Booking.com; features include login and sign up with Google api, landing page, search and filter functionality to find hotels.",
     stack: ["React", "javascript", "HTML", "CSS",],
   },
   {
@@ -94,7 +94,7 @@ export const projectsList = [
     imgSrc: "images/isntahyre.jpg",
     src: "https://drive.google.com/file/d/10TXGyObg9NbCsZpNoPqHhL9qc-tjvLpm/view",
     githubSrc: "https://github.com/Rakesh-pilly/Instahyre",
-    description: "Clone of Instahrye, \n Features implemented in the website:Register,login-logout,searching-sorting, apply the job.",
+    description: "This is the clone of Instahrye, including features such as registering, login/logout, searching/sorting and applying for jobs.",
     stack: ["React",  "CSS", "JavaScript", "HTML"],
   },
   {
@@ -102,7 +102,7 @@ export const projectsList = [
     imgSrc: "images/grow.jpg",
     src: "https://groww-clone.netlify.app/",
     githubSrc: "https://github.com/Rakesh-pilly/project_grow",
-    description: "Clone of Groww, \n Features implemented in the website: Signup page, login-logout, Dark mode, buy stocks.",
+    description: "Clone of Groww, implemented features: Signup page, login and logout, Dark mode, buy stocks.",
     stack: ["CSS", "JavaScript", "HTML"],
   },
   

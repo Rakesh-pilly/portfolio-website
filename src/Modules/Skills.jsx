@@ -24,7 +24,7 @@ const Skills = () => {
         <h2 className={`color-customBlue text-boldest ${headingMargin}`}>
           Front End
         </h2>
-        <Row xs={1} sm={2} md={3} lg={4}>
+        <Row xs={1} sm={2} md={3} lg={4} >
           {frontSkillsList.map((s) => (
             <IconCard key={s.label} src={s.src} skillName={s.label} />
           ))}
