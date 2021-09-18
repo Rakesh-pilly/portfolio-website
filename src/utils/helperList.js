@@ -86,7 +86,7 @@ export const projectsList = [
     imgSrc: "images/booking.png",
     src: "https://booking-com.netlify.app/",
     githubSrc: "https://github.com/Ramlala-Yadav-Git/Booking.com-clone",
-    description: "To clone Booking.com Booking.com is a Dutch start-up, that provides travel assistance like booking of hotels, resorts, flights, cars, and taxies etc. to the users across the world.",
+    description: "To clone Booking.com Features implemented in the website: login-in/singup use google api,landing page,Search/filter functionality,can book a hotel.",
     stack: ["React", "javascript", "HTML", "CSS",],
   },
   {
@@ -94,7 +94,7 @@ export const projectsList = [
     imgSrc: "images/isntahyre.jpg",
     src: "https://drive.google.com/file/d/10TXGyObg9NbCsZpNoPqHhL9qc-tjvLpm/view",
     githubSrc: "https://github.com/Rakesh-pilly/Instahyre",
-    description: "Clone of Instahrye,  Features implemented in the website:Register,login/logout,searching/sorting, apply the job.",
+    description: "Clone of Instahrye,  Features implemented in the website:Register,login-logout,searching-sorting, apply the job.",
     stack: ["React",  "CSS", "JavaScript", "HTML"],
   },
   {
