@@ -44,7 +44,7 @@ const Home = ({ history }) => {
                   </span>
                   <br/>
                   <span className="color-customBlue h5 font-weight-bold">
-                   I'm from hyderabad
+                   I'm from Hyderabad
                   </span>
                   <br />
                   
@@ -80,7 +80,7 @@ const Home = ({ history }) => {
           </Button>
                     <Button
             className="contact-btns bg-customBlue shadow border-0 py-1 px-2"
-            onClick={() =>
+            ondblclick={() =>
               window.open(
                 'mailto:pillyrakesh@gmail.com?subject="Hello !"',
                 "_blank"
@@ -88,7 +88,7 @@ const Home = ({ history }) => {
             }
           >
             <FontAwesomeIcon size="1x" icon={faEnvelope} />
-            <span>Mail</span>
+            <span>pillyrakesh@gmail.com</span>
           </Button>
                   </div>
                   <br />

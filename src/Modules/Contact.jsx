@@ -108,7 +108,7 @@ const Contact = () => {
             }
           >
             <FontAwesomeIcon size="1x" icon={faEnvelope} />
-            <span>Mail</span>
+            <span>pillyrakesh@gmail.com</span>
           </Button>
         </div>
       </Container>

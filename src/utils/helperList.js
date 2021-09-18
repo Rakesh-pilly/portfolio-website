@@ -92,17 +92,17 @@ export const projectsList = [
   {
     label: "Instahrye",
     imgSrc: "images/isntahyre.jpg",
-    src: "#",
+    src: "https://drive.google.com/file/d/10TXGyObg9NbCsZpNoPqHhL9qc-tjvLpm/view",
     githubSrc: "https://github.com/Rakesh-pilly/Instahyre",
-    description: "Clone of Instahrye, Instahyre is an advanced hiring platform based on artificial intelligence, enabling recruiters to hire top talent effortlessly.",
+    description: "Clone of Instahrye,  Features implemented in the website:Register,login/logout,searching/sorting, apply the job.",
     stack: ["React",  "CSS", "JavaScript", "HTML"],
   },
   {
     label: "Groww",
     imgSrc: "images/grow.jpg",
-    src: "#",
+    src: "https://groww-clone.netlify.app/",
     githubSrc: "https://github.com/Rakesh-pilly/project_grow",
-    description: "Clone of Groww, Groww is an online investment platform that allows investors to invest in mutual funds and stocks.",
+    description: "Clone of Groww, Features implemented in the website: Signup page, login/logout, Dark mode, buy stocks.",
     stack: ["CSS", "JavaScript", "HTML"],
   },
   
