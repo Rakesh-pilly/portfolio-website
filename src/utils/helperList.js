@@ -92,7 +92,7 @@ export const projectsList = [
   {
     label: "Instahrye",
     imgSrc: "images/isntahyre.jpg",
-    src: "https://drive.google.com/file/d/10TXGyObg9NbCsZpNoPqHhL9qc-tjvLpm/view",
+    src: "https://instahyreclone.vercel.app/",
     githubSrc: "https://github.com/Rakesh-pilly/Instahyre",
     description: "This is the clone of Instahrye, including features such as registering, login/logout, searching/sorting and applying for jobs.",
     stack: ["React",  "CSS", "JavaScript", "HTML"],
