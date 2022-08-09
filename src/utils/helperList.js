@@ -82,6 +82,22 @@ export const backSkillsList = [
 
 export const projectsList = [
   {
+    label: "Bio Generator",
+    imgSrc: "images/resume.png",
+    src: "https://resumemaker-kohl.vercel.app/",
+    githubSrc: "https://github.com/Rakesh-pilly/resumemaker",
+    description: "By using this app, users will be able to create a perfect biography about themselves in any way they want, and it will allow users to translate it into any language and add pictures and video",
+    stack: ["React", "javascript", "HTML", "CSS",'redux', 'mui'],
+  },
+  {
+    label: "weather app",
+    imgSrc: "images/weatherapp.png",
+    src: "https://weatherreport-nine.vercel.app/",
+    githubSrc: "https://github.com/Rakesh-pilly/weatherreport",
+    description: "Users will be able to view the weather details of the selected city since the default app will get the user's location default",
+    stack: ["React", "javascript", "HTML", "CSS",'firebase', 'mui'],
+  },
+  {
     label: " Booking.com",
     imgSrc: "images/booking.png",
     src: "https://booking-com.netlify.app/",
